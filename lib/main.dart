@@ -44,7 +44,9 @@ class MyApp extends StatelessWidget {
                   width: 110,
                 ),
                 Padding(
-                  padding: const EdgeInsets.only(right: 40),
+                  padding: const EdgeInsets.only(
+                    right: 40,
+                  ),
                   child: TextButton(
                     onPressed: () {},
                     child: const Text(
