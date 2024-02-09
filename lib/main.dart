@@ -129,7 +129,7 @@ class MyApp extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 12,
+              height: 20,
             ),
             Container(
                 width: 300,
