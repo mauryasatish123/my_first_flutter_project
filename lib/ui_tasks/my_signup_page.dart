@@ -147,7 +147,7 @@ class My_Signup_page extends StatelessWidget {
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
                       decoration: TextDecoration.underline,
-                      color: Colors.amber,
+                      color: Colors.blue,
                       decorationThickness: 1,
                       decorationColor: Colors.black,
                     ),
