@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:my_first_flutter_project/ui_tasks/login_page.dart';
+import 'package:my_first_flutter_project/ui_tasks/my_signup_page.dart';
 
 void main() {
   runApp(
@@ -13,14 +13,10 @@ class MyWidgets extends StatelessWidget {
   });
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorSchemeSeed: Colors.grey[300],
-      ),
       home: Scaffold(
-        appBar: AppBar(),
-        body: const Login(),
+        body: My_Signup_page(),
       ),
     );
   }

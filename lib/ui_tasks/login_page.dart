@@ -38,12 +38,11 @@ class Login extends StatelessWidget {
                 ),
                 child: Expanded(
                   child: Container(
-                    
                     decoration: const BoxDecoration(
                       border: Border(
                         bottom: BorderSide(
                           width: 2.0,
-                          color: Colors.red,
+                          color: Colors.blueAccent,
                         ),
                       ),
                     ),
@@ -147,7 +146,7 @@ class Login extends StatelessWidget {
                 onPressed: () {},
                 style: ButtonStyle(
                   backgroundColor: MaterialStateProperty.all<Color>(
-                    Colors.red,
+                    Colors.greenAccent,
                   ),
                 ),
                 child: const Text(
@@ -165,3 +164,4 @@ class Login extends StatelessWidget {
     );
   }
 }
+
