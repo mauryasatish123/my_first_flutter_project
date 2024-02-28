@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_first_flutter_project/ui_tasks/my_signup_page.dart';
+import 'package:my_first_flutter_project/ui_tasks/whatsapp.dart';
+
 
 void main() {
   runApp(
@@ -15,9 +16,10 @@ class MyWidgets extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: My_Signup_page(),
-      ),
+      home:Scaffold(
+        
+        body:Whatsapp()
+      )
     );
   }
 }
